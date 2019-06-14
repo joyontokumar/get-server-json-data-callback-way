@@ -5,7 +5,7 @@ javascript synchronously work. it can't wait the server code execute. but next l
 out show undefined. because javascritp could not find any sever data to show the dom. only variable hoisted working that why show undefinded
 
 
-<b>so how to show this problem :</b>
+<b>so how to solved this problem :</b>
 
 this problem different way to solved. this time i want to try callback function way.
 callback function are main feature is when other function execution completed other function means those function where callback function 
