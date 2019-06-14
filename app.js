@@ -7,5 +7,16 @@ const mydata = new myFun();
 
 // callback way to handle server data
 mydata.get('https://jsonplaceholder.typicode.com/posts', function (data) {
-    console.log(data);
-})
+
+    const outputdata = JSON.parse(data);
+    //console.log(outputdata);
+
+    let output = '';
+    outputdata.forEach(element => {
+        output += `<div class="single-element">
+            <h6>${element.title}</h6>
+            <p>${element.body}</p>
+        </div>`;
+    });
+    document.getElementById('output').innerHTML = output;
+});
