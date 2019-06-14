@@ -11,3 +11,18 @@ this problem different way to solved. this time i want to try callback function 
 callback function are main feature is when other function execution completed other function means those function where callback function 
 used as argument. when main function execution completed then work callback,
 that why it show output json data. because callback woking when json data back to my dom . 
+
+
+<b>GET, POST, PUT, DELETE :</b>
+here  i applyed four https request. bellow the structure
+
+GET	/posts
+GET	/posts/1
+GET	/posts/1/comments
+GET	/comments?postId=1
+GET	/posts?userId=1
+POST	/posts
+PUT	/posts/1
+PATCH	/posts/1
+DELETE	/posts/1
+
