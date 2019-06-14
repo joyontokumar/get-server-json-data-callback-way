@@ -1,6 +1,6 @@
 <b>Project Description :</b>
 
-when you want to get server json data using in your dom . when you send a request in server then server  take a minisecond time . but we already know
+when you want to get server json data and put to your dom application . when you send a request in server then server  take a minisecond time . but we already know
 javascript synchronously work. it can't wait the server code execute. but next line emidately show the output server data . then we see the
 out show undefined. because javascritp could not find any sever data to show the dom. only variable hoisted working that why show undefinded
 
