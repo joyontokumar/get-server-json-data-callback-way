@@ -16,13 +16,21 @@ that why it show output json data. because callback woking when json data back t
 <b>GET, POST, PUT, DELETE :</b>
 here  i applyed four https request. bellow the structure
 
-GET	/posts
-GET	/posts/1
-GET	/posts/1/comments
-GET	/comments?postId=1
-GET	/posts?userId=1
-POST	/posts
-PUT	/posts/1
-PATCH	/posts/1
-DELETE	/posts/1
+<li>GET	/posts</li>
+<li>GET	/posts/1</li>
+<li>GET	/posts/1/comments</li>
+<li>GET	/comments?postId=1</li>
+<li>GET	/posts?userId=1</li>
+<li>POST	/posts</li>
+<li>PUT	/posts/1</li>
+<li>PATCH	/posts/1</li>
+<li>DELETE	/posts/1</li>
+
+
+
+
+
+
+
+
 
